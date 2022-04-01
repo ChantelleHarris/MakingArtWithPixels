@@ -39,9 +39,8 @@ create.addEventListener('click',  function makeGrid(e) {
                     //This deletes a cell color if clicked
                     column.addEventListener('click', function deleteColor() {
                         column.style.backgroundColor = 'transparent';
+                    });
                 });
-                });
-            
             };
         };
     //This deletes the canvas when the submit button is clicked again
@@ -51,7 +50,5 @@ create.addEventListener('click',  function makeGrid(e) {
         gridTable.remove('td');
         setTimeout(location.reload(), 1500);
     });
-
-    
 });
 
