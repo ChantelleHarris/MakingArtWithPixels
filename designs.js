@@ -33,7 +33,7 @@ create.addEventListener('click',  function makeGrid(e) {
                 row.appendChild(column);
 
                 //This sets the background of each cell to the chosen color when the cursor hits the cell
-                column.addEventListener('mouseenter', function fillColor() {
+                column.addEventListener('click', function fillColor() {
                     column.style.backgroundColor = color.value;
 
                     //This deletes a cell color if clicked
