@@ -36,10 +36,10 @@ create.addEventListener('click',  function makeGrid(e) {
                 column.addEventListener('click', function fillColor() {
                     column.style.backgroundColor = color.value;
 
-                    //This deletes a cell color if clicked
-                    column.addEventListener('click', function deleteColor() {
-                        column.style.backgroundColor = 'transparent';
-                    });
+                    // //This deletes a cell color if clicked
+                    // column.addEventListener('click', function deleteColor() {
+                    //     column.style.backgroundColor = 'transparent';
+                    // });
                 });
             };
         };
